@@ -26,4 +26,4 @@ def generate_response(input_text):
     return response.choices[0].text
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
